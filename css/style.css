@@ -115,8 +115,7 @@ a.skip{
 /* Requirements 6-10 here: */
 .intro{
    /* The image used */
-   background-color: #DDDDDD;
-   background-image: url("../images/header.jpg");
+   background: #DDDDDD url("../images/header.jpg");
 
    /* Set a specific height */
    min-height: 400px;
@@ -186,7 +185,7 @@ img{
   }
   
   .container {
-    grid-template: 50px auto 500px auto 50px / repeat(4, 300px);
+    grid-template: repeat(4, 300px) / 50px auto 500px auto 50px;
   }
 
   .about, .method, .clients-image, .contact-image {
