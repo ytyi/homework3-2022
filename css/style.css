@@ -115,7 +115,8 @@ a.skip{
 /* Requirements 6-10 here: */
 .intro{
    /* The image used */
-   background: #DDDDDD url("../images/header.jpg");
+   background-color: #DDDDDD;
+   background-image: url("../images/header.jpg");
 
    /* Set a specific height */
    min-height: 400px;
